@@ -1,6 +1,6 @@
-# preact-cli-plugin-async [![npm](https://img.shields.io/npm/v/preact-cli-plugin-async.svg)](https://npm.im/preact-cli-plugin-async)
+# preact-cli-plugin-async
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/developit/preact-cli-plugin-async.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/preact-cli-plugin-async.svg)](https://npm.im/preact-cli-plugin-async) [![Greenkeeper badge](https://badges.greenkeeper.io/developit/preact-cli-plugin-async.svg)](https://greenkeeper.io/)
 
 [Preact CLI] plugin that adds optimized support for async/await via [Kneden].
 

@@ -14,7 +14,7 @@ npm i -D preact-cli-plugin-async
 import asyncPlugin from 'preact-cli-plugin-async';
 
 export default (config) => {
-  asyncPlugin(config);
+    asyncPlugin(config);
 }
 ```
 
@@ -22,4 +22,5 @@ export default (config) => {
 
 MIT © [developit](https://github.com/developit)
 
+[Preact CLI]: https://github.com/developit/preact-cli
 [Kneden]: https://github.com/babel/kneden

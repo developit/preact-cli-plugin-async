@@ -5,9 +5,11 @@
   "main": "dist/async-plugin.js",
   "source": "async-plugin.js",
   "scripts": {
+    "prepare": "npm t",
     "build": "microbundle",
     "test:build": "ln -fs ../node_modules test && preact build --cwd test && bundlesize -f 'test/build/bundle.*.js' -s 4.5kB",
-    "test": "eslint async-plugin.js && npm run -s build && npm run -s test:build"
+    "test": "eslint async-plugin.js && npm run -s build && npm run -s test:build",
+    "release": "npm run -s prepare && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "eslintConfig": {
     "extends": "eslint-config-developit"

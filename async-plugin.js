@@ -16,6 +16,6 @@ export default function asyncPlugin(config) {
 		'transform-object-rest-spread'
 	);
 
-	// Add Kneden
-	babel.plugins.push(require.resolve('babel-plugin-async-to-promises'));
+	// Add fast-async
+	babel.plugins.push([require.resolve('fast-async'), { spec: true }]);
 }

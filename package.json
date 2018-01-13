@@ -26,7 +26,7 @@
     "eslint": "^4.13.1",
     "eslint-config-developit": "^1.1.1",
     "microbundle": "^0.2.4",
-    "preact-cli": "^2.1.0"
+    "preact-cli": "2.1.0"
   },
   "dependencies": {
     "babel-plugin-async-to-promises": "^1.0.5"

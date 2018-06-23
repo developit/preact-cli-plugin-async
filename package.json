@@ -23,7 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "bundlesize": "^0.15.3",
-    "eslint": "^4.13.1",
+    "eslint": "^5.0.0",
     "eslint-config-developit": "^1.1.1",
     "microbundle": "^0.4.1",
     "preact-cli": "^2.1.0"

@@ -2,12 +2,13 @@
 
 [![npm](https://img.shields.io/npm/v/preact-cli-plugin-async.svg)](https://npm.im/preact-cli-plugin-async) [![travis](https://travis-ci.org/developit/preact-cli-plugin-async.svg?branch=master)](https://travis-ci.org/developit/preact-cli-plugin-async) [![greenkeeper](https://badges.greenkeeper.io/developit/preact-cli-plugin-async.svg)](https://greenkeeper.io/)
 
-[Preact CLI] plugin that adds optimized support for async/await via [Kneden].
+[Preact CLI] plugin that adds optimized support for async/await via [fast-async].
 
+> **Note:** this is now just a copy of [preact-cli-plugin-fast-async](https://github.com/plusCubed/preact-cli-plugin-fast-async) by [@plusCubed](https://github.com/pluscubed).
 
 ## Why do I want this?
 
-Normally, transpiling async/await produces a large amount of code and depends on a runtime like `regenerator-runtime`.  While that is optimal from a compatibility standpoint, it's not so great for bundle size.  Using Kneden, this plugin transforms your async functions into Promises just like you would write by hand!
+ormally, transpiling async/await produces a large amount of code and depends on a runtime like `regenerator-runtime`.  While that is optimal from a compatibility standpoint, it's not so great for bundle size.  Using [fast-async], this plugin transforms your async functions into Promises just like you would write by hand!
 
 It transforms this:
 
@@ -15,7 +16,7 @@ It transforms this:
 async () => await (await fetch('/')).text()
 ```
 
-... to this:
+... to something that roughly looks like this:
 
 ```js
 function () {
@@ -27,8 +28,7 @@ function () {
 }
 ```
 
-Pretty great, right?
-
+ Pretty great, right?
 
 ## Installation
 
@@ -49,7 +49,9 @@ export default (config) => {
 
 ## License
 
-MIT © [developit](https://github.com/developit)
+MIT  
+Original version © [developit](https://github.com/developit)  
+Current fast-async version © [Daniel Ciao](https://github.com/pluscubed)
 
 [Preact CLI]: https://github.com/developit/preact-cli
-[Kneden]: https://github.com/babel/kneden
+[fast-async]: https://github.com/MatAtBread/fast-async

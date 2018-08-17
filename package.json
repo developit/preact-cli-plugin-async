@@ -1,7 +1,7 @@
 {
-  "name": "preact-cli-plugin-async",
-  "version": "1.0.0",
-  "description": "Preact CLI plugin that adds optimized support for async/await via Kneden.",
+  "name": "preact-cli-plugin-fast-async",
+  "version": "1.0.1",
+  "description": "Preact CLI plugin that adds support for async/await via fast-async",
   "main": "dist/async-plugin.js",
   "source": "async-plugin.js",
   "scripts": {
@@ -19,7 +19,11 @@
     "preact-cli",
     "preact cli plugin"
   ],
-  "author": "Jason Miller <jason@developit.ca> (http://jasonformat.com)",
+  "author": "Daniel Ciao <pluscubed@gmail.com> (http://pluscubed.com)",
+  "contributors": [
+    "Jason Miller <jason@developit.ca> (http://jasonformat.com)"
+  ],
+  "repository": "pluscubed/preact-cli-plugin-fast-async",
   "license": "MIT",
   "devDependencies": {
     "bundlesize": "^0.15.3",
@@ -29,6 +33,6 @@
     "preact-cli": "^2.1.0"
   },
   "dependencies": {
-    "babel-plugin-async-to-promises": "^1.0.5"
+    "fast-async": "^6.3.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "preact-cli-plugin-fast-async",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Preact CLI plugin that adds support for async/await via fast-async",
   "main": "dist/async-plugin.js",
   "source": "async-plugin.js",

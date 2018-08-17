@@ -26,10 +26,10 @@
   "repository": "pluscubed/preact-cli-plugin-fast-async",
   "license": "MIT",
   "devDependencies": {
-    "bundlesize": "^0.15.3",
-    "eslint": "^4.13.1",
+    "bundlesize": "^0.17.0",
+    "eslint": "^5.3.0",
     "eslint-config-developit": "^1.1.1",
-    "microbundle": "^0.4.1",
+    "microbundle": "^0.6.0",
     "preact-cli": "^2.1.0"
   },
   "dependencies": {

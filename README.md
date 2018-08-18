@@ -8,7 +8,7 @@
 
 ## Why do I want this?
 
-ormally, transpiling async/await produces a large amount of code and depends on a runtime like `regenerator-runtime`.  While that is optimal from a compatibility standpoint, it's not so great for bundle size.  Using [fast-async], this plugin transforms your async functions into Promises just like you would write by hand!
+Normally, transpiling async/await produces a large amount of code and depends on a runtime like `regenerator-runtime`.  While that is optimal from a compatibility standpoint, it's not so great for bundle size.  Using [fast-async], this plugin transforms your async functions into Promises just like you would write by hand!
 
 It transforms this:
 
